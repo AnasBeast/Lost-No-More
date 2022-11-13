@@ -9,14 +9,14 @@ const Navbar = () => {
         <Popover className="relative bg-white">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="#">
+              <Link to={"/"}>
                 <span className="sr-only">N-KIDS</span>
                 <img
                   className="h-10 w-auto sm:h-16"
                   src="https://i.postimg.cc/R0W1dtYg/n-kids-logo.png"
                   alt="logo"
                 />
-              </a>
+              </Link>
             </div>
             <div className="-my-2 -mr-2 md:hidden">
               <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -35,7 +35,7 @@ const Navbar = () => {
                 Find Us
               </Link>
               <Link to={"/contact"} className="text-base font-medium text-gray-500 hover:text-gray-900">
-                About Us
+                Get in Touch
               </Link>
               
             </Popover.Group>
@@ -102,7 +102,7 @@ const Navbar = () => {
                       href="mailto:boussehminea@gmail.com"
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
                     >
-                      Contact Us
+                      Get in Touch
                     </a>
                     
                   </div>
