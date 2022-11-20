@@ -31,7 +31,7 @@ const Navbar = () => {
               <Link to={"/pricing"} className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Pricing
               </Link>
-              <Link to={"/#"} className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <Link to={"/findus"} className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Find Us
               </Link>
               <Link to={"/contact"} className="text-base font-medium text-gray-500 hover:text-gray-900">
@@ -90,7 +90,7 @@ const Navbar = () => {
                   <Link to={"/pricing"} className="text-base font-medium text-gray-500 hover:text-gray-900">
                     Pricing
                   </Link>
-                  <Link to={"#"} className="text-base font-medium text-gray-500 hover:text-gray-900">
+                  <Link to={"/findus"} className="text-base font-medium text-gray-500 hover:text-gray-900">
                     Find Us
                   </Link>
                   <Link to={"/contact"} className="text-base font-medium text-gray-500 hover:text-gray-900">
