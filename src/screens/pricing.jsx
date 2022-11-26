@@ -105,6 +105,7 @@ const tiers = [
     href: '#',
     priceMonthly: 12,
     description: 'Basic Parental Control Subscription',
+    link : "https://buy.stripe.com/test_cN27vEbre9PM7YI8ww",
     features: ['Block website and apps.', 'Monitor connected devices.'],
   },
   {
@@ -112,6 +113,7 @@ const tiers = [
     href: '#',
     priceMonthly: 24,
     description: 'Standard Parental Control Subscription',
+    link : "https://buy.stripe.com/test_cN24jsbre2nk6UE4gh",
     features: [
       'Block website and apps.',
       'Monitor connected devices.',
@@ -123,6 +125,7 @@ const tiers = [
     href: '#',
     priceMonthly: 32,
     description: 'Premium Parental Control Subscription',
+    link : "https://buy.stripe.com/test_dR603c3YM0fcbaU002",
     features: [
         'Block website and apps.',
         'Monitor connected devices.',
@@ -135,6 +138,7 @@ const tiers = [
     href: '#',
     priceMonthly: 48,
     description: 'All the basics for starting a new business',
+    link : "https://buy.stripe.com/test_3cs5nw1QE2nk6UE5kn",
     features: [
         'Block website and apps.',
         'Monitor connected devices.',
@@ -208,6 +212,7 @@ function classNames(...classes) {
 }
 
 export default function Pricing() {
+  window.scrollTo(0,0)
   return (
     <div className="bg-white">
       <div className='border shadow-lg'>
@@ -243,7 +248,7 @@ export default function Pricing() {
                     <span className="text-base font-medium text-gray-500">/mo</span>
                   </p>
                   <a
-                    href={tier.href}
+                    href={tier.link}
                     className="mt-8 block w-full rounded-md border border-transparent bg-purple-600 py-2 text-center text-sm font-semibold text-white hover:bg-purple-700"
                   >
                     Buy {tier.name}
