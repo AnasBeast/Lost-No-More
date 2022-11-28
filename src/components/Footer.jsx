@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Notification from './SubNotification'
 
 const Footer = () => {
     const footerNavigation = {
@@ -78,10 +79,13 @@ const Footer = () => {
           
         ],
       }
+      const [show,setShow] = useState(false)
 
 
   return (
     <footer className="bg-gray-50" aria-labelledby="footer-heading">
+        <Notification setShow={setShow} show={show}/>
+
         <h2 id="footer-heading" className="sr-only">
           Footer
         </h2>
@@ -161,8 +165,9 @@ const Footer = () => {
                 />
                 <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                   <button
-                    type="submit"
+                    type="button"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
+                    onClick={()=>setShow(true)}
                   >
                     Subscribe
                   </button>

@@ -1,5 +1,5 @@
 
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
   ArrowUturnLeftIcon,
@@ -24,6 +24,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import {Link} from "react-router-dom"
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Notification from '../components/SubNotification'
 
 const features = [
   {
@@ -78,7 +79,7 @@ export default function Home() {
   return (
     <div className="bg-white">
       <Navbar/>
-
+      
       <main>
         {/* Hero section */}
         <div className="relative">
