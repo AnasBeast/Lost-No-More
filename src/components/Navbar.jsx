@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link to={"/"}>
-                <span className="sr-only">N-KIDS</span>
+                <span className="sr-only">Lost No More</span>
                 <img
                   className="h-10 w-auto sm:h-16"
                   src="https://i.postimg.cc/R0W1dtYg/n-kids-logo.png"

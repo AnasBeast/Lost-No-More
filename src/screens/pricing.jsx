@@ -104,55 +104,38 @@ const tiers = [
     name: 'Basic',
     href: '#',
     priceMonthly: 12,
-    description: 'Basic Parental Control Subscription',
+    description: 'Basic Control Subscription',
     link : "https://buy.stripe.com/test_cN27vEbre9PM7YI8ww",
-    features: ['Block website and apps.', 'Monitor connected devices.'],
+    features: ['GPS Tracker.'],
   },
   {
     name: 'Standard',
     href: '#',
     priceMonthly: 24,
-    description: 'Standard Parental Control Subscription',
+    description: 'Standard Control Subscription',
     link : "https://buy.stripe.com/test_cN24jsbre2nk6UE4gh",
     features: [
-      'Block website and apps.',
-      'Monitor connected devices.',
-      'Receive parental monitoring alerts for issues like cyberbullying and more.',
+      'GPS Tracker.',
+      'Heart Rate Monitoring.'
     ],
   },
   {
     name: 'Premium',
     href: '#',
     priceMonthly: 32,
-    description: 'Premium Parental Control Subscription',
+    description: 'Premium Control Subscription',
     link : "https://buy.stripe.com/test_dR603c3YM0fcbaU002",
     features: [
-        'Block website and apps.',
-        'Monitor connected devices.',
-        'Receive parental monitoring alerts for issues like cyberbullying and more.',
-        'Manage screen time.',
+        'GPS Tracker.',
+        'Heart Rate Monitoring.',
+        'Oximeter.'
     ],
   },
-  {
-    name: 'Ultra Premium',
-    href: '#',
-    priceMonthly: 48,
-    description: 'All the basics for starting a new business',
-    link : "https://buy.stripe.com/test_3cs5nw1QE2nk6UE5kn",
-    features: [
-        'Block website and apps.',
-        'Monitor connected devices.',
-        'Receive parental monitoring alerts for issues like cyberbullying and more.',
-        'Manage screen time.',
-        'Keep up with kids with location alerts and check-ins.',
-        'Learn how to address issues with child-psychologist advice and tips.',
-        'Set limits.',
-    ],
-  },
+
 ]
 const features = [
   {
-    name: 'Admin Panel',
+    name: 'GPS Tracker',
     description: 'Admin Panel is controlled by parents.',
   },
   {
@@ -225,7 +208,7 @@ export default function Pricing() {
           <div className="sm:align-center sm:flex sm:flex-col">
             <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-center">Pricing Plans</h1>
             <p className="mt-5 text-xl text-gray-500 sm:text-center">
-              Start supervising your kid for free, then add a site plan to go live. Account plans unlock additional features.
+              Start supervising your kid/parent and prevent them from getting lost. Account plans unlock additional features.
             </p>
             <div className="relative mt-6 flex self-center rounded-lg bg-gray-100 p-0.5 sm:mt-8">
               <button
@@ -237,7 +220,7 @@ export default function Pricing() {
               
             </div>
           </div>
-          <div className="mt-12 space-y-4 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
+          <div className="mt-12 space-y-4 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-3">
             {tiers.map((tier) => (
               <div key={tier.name} className="divide-y divide-gray-200 rounded-lg border border-gray-200 shadow-sm">
                 <div className="p-6">
@@ -271,13 +254,10 @@ export default function Pricing() {
         </div>
 
         {/* Feature list */}
-        <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+        {/* <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">All-in-one platform</h2>
-            <p className="mt-4 text-lg text-gray-500">
-              Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla
-              nec.
-            </p>
+            
           </div>
           <dl className="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
             {features.map((feature) => (
@@ -290,11 +270,11 @@ export default function Pricing() {
               </div>
             ))}
           </dl>
-        </div>
+        </div> */}
       </div>
 
       {/* Logo cloud on brand */}
-      <div className="bg-purple-600">
+      {/* <div className="bg-purple-600">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
           <div className="lg:space-y-10">
             <h2 className="text-3xl font-bold tracking-tight text-white">
@@ -311,7 +291,7 @@ export default function Pricing() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* FAQ offset */}
       <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-20 lg:px-8">

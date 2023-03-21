@@ -32,7 +32,7 @@ export default function Notification({show, setShow}) {
                   </div>
                   <div className="ml-3 w-0 flex-1 pt-0.5">
                     <p className="text-sm font-medium text-gray-900">Successfully subscribed!</p>
-                    <p className="mt-1 text-sm text-gray-500">You are now subscribed to N-KIDS.</p>
+                    <p className="mt-1 text-sm text-gray-500">You are now subscribed to Lost No More.</p>
                   </div>
                   <div className="ml-4 flex flex-shrink-0">
                     <button

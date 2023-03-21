@@ -11,14 +11,14 @@ const navigation = [
   { name: 'News', href: '#' },
 ]
 const contactDetails = [
-  { name: 'N-KIDS', email: 'boussehminea@gmail.com', telephone: '+216 51 673 109' },
+  { name: 'Lost No More', email: 'boussehminea@gmail.com', telephone: '+216 51 673 109' },
   
 ]
 const teamMembers = [
-  { city: 'Anas Boussehmine', address: ['CEO & Founder of N-KIDS'] },
-  { city: 'Iyed Dhorbani', address: ['Team Manager'] },
-  { city: 'Ahmed Zouaghi', address: ['Executive Team'] },
-  { city: 'Adem Saïdi', address: ['Executive Team'] },
+  { city: 'Anas Boussehmine', address: ['CEO & Founder of Lost No More'] },
+  { city: 'Islem Jendoubi', address: ['CMO'] },
+  { city: 'Adem Bhihi', address: ['CFO'] },
+  { city: 'Malek Mekni', address: ['CTO'] },
   
   
 ]
@@ -33,13 +33,13 @@ const faqs = [
       id: 2,
       question: "What's the best plan?",
       answer:
-        "The best plan is Ultra Premium of course.",
+        "The best plan is Premium of course.",
     },
     {
       id: 3,
-      question: "Who's Idea \"N-KIDS\"?",
+      question: "Who's Idea \"Lost No More\"?",
       answer:
-        "N-KIDS is Mrs.Sonia Suissi",
+        "Lost No More is all group members idea",
     },
   ]
 
@@ -65,18 +65,18 @@ export default function Find() {
                 </h2>
                 <div className="mt-8 grid grid-cols-1 gap-12 sm:gap-x-8 sm:gap-y-12 lg:col-span-2 lg:mt-0">
                   <div>
-                        <h3 className="text-lg font-medium text-warm-gray-900">N-KIDS</h3>
+                        <h3 className="text-lg font-medium text-warm-gray-900">Lost No More</h3>
                         <dl className="mt-2 text-base text-warm-gray-500">
                           <div>
                             
                             <dd>
-                              N-KIDS IS A MULTINATIONAL PROFESSIONAL SOCIETY FOUNDED IN 2022 BY ANAS BOUSSEHMINE IN THE FIELD OF IT & NETWORK DEVELOPMENT
+                              Lost No More IS A MULTINATIONAL PROFESSIONAL STARTUP FOUNDED IN 2023 BY ANAS BOUSSEHMINE, ISLEM JENDOUBI, ADEM BHIHI, MALEK MEKNI IN THE FIELD OF IT & NETWORK DEVELOPMENT
                               
                             </dd>
                           </div>
                           <div className="mt-1">
                             
-                            <dd>We are a society that provides a product that helps STRICT PARENTS to easily manage the use of network by their kids.</dd>
+                            <dd>We are a startup that provides a product that helps autism and alzheimer's responsibles to prevent them from getting lost.</dd>
                           </div>
                         </dl>
                   </div>
@@ -131,7 +131,7 @@ export default function Find() {
                 </div>
 
               </section>
-              <iframe className='mx-auto w-full mt-4' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.810521796362!2d9.194795470414896!3d36.73330482445116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fca786bc7c0955%3A0x92f5bfc4d2f5098d!2sLyc%C3%A9e%20Pilote%20de%20B%C3%A9ja!5e0!3m2!1sen!2stn!4v1668961805633!5m2!1sen!2stn" width="600" height="550" style={{boder : 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe className='mx-auto w-full mt-4' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.578025785675!2d9.196985460201565!3d36.73269441488915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fca7d1449372f1%3A0x6bf7395a75dbf4f!2sCentre%20Elife%20Beja!5e0!3m2!1sfr!2stn!4v1679436935850!5m2!1sfr!2stn" width="600" height="550" style={{boder : 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
           </div>

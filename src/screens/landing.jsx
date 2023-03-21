@@ -64,18 +64,13 @@ signInWithEmailAndPassword(auth, "teemuairamo@gmail.com", "M1neral123").then((us
 const features = [
   {
     name: 'Ease to use',
-    description: 'Our product provide their users with the best service to easily protect their kid.',
+    description: 'Our product provide their users with the best service to easily protect their kid/parent.',
     icon: AdjustmentsHorizontalIcon,
   },
   {
     name: 'Support Available 24/7',
     description: 'We got a technical support team that\'s working to provide you with the best experience with our product.',
     icon: UsersIcon,
-  },
-  {
-    name: 'Extra Anti-Virus',
-    description: 'Buying our product includes our beta Anti-Virus Beast-Protection.',
-    icon: ShieldCheckIcon,
   },
   {
     name: 'Open to your feedback',
@@ -131,11 +126,11 @@ export default function Home() {
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                 <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                  <span className="block text-white">Prents' Ultimate Guide to</span>
-                  <span className="block text-indigo-200">Parental Controls</span>
+                  <span className="block text-white">Lost No More</span>
+                  <span className="block text-indigo-200">Control alzheimer's and autism disease</span>
                 </h1>
                 <p className="mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl">
-                  Using our product N-KIDS will help you supervise and protect your kid from all threats.
+                  Using our product LostNoMore will help you supervise and protect your darling from all threats.
                 </p>
                 <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                   <div className="space-y-4 sm:mx-auto">
@@ -154,7 +149,7 @@ export default function Home() {
         </div>
 
         {/* Logo Cloud */}
-        <div className="bg-gray-100">
+        {/* <div className="bg-gray-100">
           <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
             <p className="text-center text-base font-semibold text-gray-500">
               Trusted by over 5 very big businesses
@@ -189,7 +184,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Alternating Feature Sections */}
         <div className="relative overflow-hidden pt-16 pb-32">
@@ -204,9 +199,9 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="mt-6">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900">We are among the best startup that provides a parental control product</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900">We are among the best startup that provides a control product.</h2>
                     <p className="mt-4 text-lg text-gray-500">
-                    Do you need parental controls? What are the options? Do they really work? Here's everything you need to know about the wide array of parental control solutions, from OS settings to monitoring apps to network hardware.
+                    Do you need to protect your kid or one of your parents? What are the options? Do they really work? Here's everything you need to know about the wide array of supervising solutions, from OS settings to monitoring apps to network hardware.
                     </p>
                     <div className="mt-6">
                       <Link
@@ -247,7 +242,7 @@ export default function Home() {
                 <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                   <img
                     className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="https://i.postimg.cc/pd6GVqDY/screen-parent-control.png"
+                    src="https://i.postimg.cc/XN9pbXkh/image-2023-03-21-225922083.png"
                     alt="Inbox user interface"
                   />
                 </div>
@@ -265,13 +260,12 @@ export default function Home() {
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-                      Better control your kid navigation
+                      Better prevent your kid/parent from getting lost
                     </h2>
                     <p className="mt-4 text-lg text-gray-500">
-                      Buying this product will protect your kid from all Internet threats. <br />
-                      Also, you can monitor you kid's phone. <br />
-                      Track your kid's location. <br />
-                      Manage all devices on the network, limit screen time, filter content, turn off Wi-Fi.
+                      Buying this product will protect your kid/parent from all getting lost. <br />
+                      Also, you can monitor your kid/parent's hearbeat. <br />
+                      Track your kid/parent's location.
                     </p>
                     <div className="mt-6">
                       <Link
@@ -300,9 +294,9 @@ export default function Home() {
         {/* Gradient Feature Section */}
         <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
           <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-24">
-            <h2 className="text-3xl font-bold tracking-tight text-white">N-KIDS</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-white">Lost No More</h2>
             <p className="mt-4 max-w-3xl text-lg text-purple-200">
-              N-KIDS is a startup created by Anas Boussehmine, aiming to provide parents with the best product to supervise their kids.
+              Lost No More is a startup created by Anas Boussehmine, Islem Jendoubi, Adem Bhihi and Malek Mekni aiming to provide parents with the best product to supervise their kids/parents and preventing them from getting lost.
             </p>
             <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
               {features.map((feature) => (

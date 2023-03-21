@@ -11,7 +11,7 @@ const navigation = [
   { name: 'News', href: '#' },
 ]
 const contactDetails = [
-  { name: 'N-KIDS', email: 'boussehminea@gmail.com', telephone: '+216 51 673 109' },
+  { name: 'Lost No More', email: 'boussehminea@gmail.com', telephone: '+216 51 673 109' },
   
 ]
 const locations = [
@@ -31,12 +31,6 @@ const faqs = [
       question: "What's the best plan?",
       answer:
         "The best plan is Ultra Premium of course.",
-    },
-    {
-      id: 3,
-      question: "Who's Idea \"N-KIDS\"?",
-      answer:
-        "N-KIDS is Mrs.Sonia Suissi",
     },
   ]
 
